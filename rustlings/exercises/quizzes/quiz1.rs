@@ -12,9 +12,9 @@
 // the quantity bought.
 fn calculate_price_of_apples(num: u32) -> u32 {
     if num > 40 {
-        1 * num
+        num
     } else {
-        2 * num
+        num * 2
     }
 }
 
